@@ -3,7 +3,7 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![Python Version](https://img.shields.io/pypi/pyversions/playwright-dompath?style=flat-square)](https://pypi.org/project/playwright-dompath)
 [![PyPi Version](https://img.shields.io/pypi/v/playwright-dompath?style=flat-square)](https://pypi.org/project/playwright-dompath)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/alexferrari88/playwright-DOMPath?style=flat-square)](https://img.shields.io/github/last-commit/alexferrari88/playwright-DOMPath?style=flat-square)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/alexferrari88/playwright-dompath-py?style=flat-square)](https://img.shields.io/github/last-commit/alexferrari88/playwright-dompath-py?style=flat-square)
 
 This library implements the ChromeDevTools DOMPath functionality in Playwright.
 
