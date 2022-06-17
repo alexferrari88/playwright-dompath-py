@@ -1,0 +1,30 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "playwright-dompath"
+version = "0.0.1"
+description = "Retrieve xpath and css selectors from Locator objects in Playwright"
+readme = "README.md"
+authors = [{ name = "Alex Ferrari", email = "alex@thealexferrari.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Plugins",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["playwright", "scraper", "dompath"]
+dependencies = [
+    "playwright >= 1.22.0",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/alexferrari88/playwright-dompath-py"
